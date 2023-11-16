@@ -1,4 +1,4 @@
-package com.zara.price.pvp;
+package com.zara.price.pvp.domain;
 
 import lombok.Value;
 import org.springframework.util.Assert;

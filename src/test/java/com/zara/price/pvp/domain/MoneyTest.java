@@ -1,4 +1,4 @@
-package com.zara.price.pvp;
+package com.zara.price.pvp.domain;
 
 import org.junit.jupiter.api.Test;
 
