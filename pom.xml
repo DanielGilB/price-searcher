@@ -12,7 +12,7 @@
 	<artifactId>price</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>price</name>
-	<description>Price Searcher</description>
+	<description>Price Service</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
