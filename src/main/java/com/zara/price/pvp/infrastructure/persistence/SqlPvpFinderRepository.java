@@ -3,8 +3,6 @@ package com.zara.price.pvp.infrastructure.persistence;
 import com.zara.price.pvp.domain.*;
 import lombok.AllArgsConstructor;
 
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
 import java.util.Optional;
 
 @AllArgsConstructor

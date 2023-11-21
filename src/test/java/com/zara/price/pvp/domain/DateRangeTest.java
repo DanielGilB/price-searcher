@@ -1,12 +1,12 @@
 package com.zara.price.pvp.domain;
 
-import com.zara.price.pvp.domain.DateRange;
 import org.junit.jupiter.api.Test;
 
 import java.time.Instant;
 
 import static java.time.temporal.ChronoUnit.DAYS;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class DateRangeTest {
 
