@@ -22,6 +22,10 @@ public class PvpController {
 
     private PvpFinder finder;
 
+    // I decided to use brand-product as the identifier to the endpoint since I think they should be mandatory to find a product
+    // But Is not the only solution, this will depend on the domain and requirements.
+    // Maybe It could be a good idea to use /pvp instead with brandId and productId as query param. This would be an option to scale easier the endpoint.
+    // But as I said before, I think the option brand-product is good.
     @GetMapping("brands/{brandId}/products/{productId}/pvp")
     ResponseEntity<PvpResponse> find(@PathVariable final Long brandId,
                                      @PathVariable final Long productId,
