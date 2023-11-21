@@ -48,4 +48,3 @@ public class PvpController {
                 .build();
     }
 }
-// TODO: error handler
