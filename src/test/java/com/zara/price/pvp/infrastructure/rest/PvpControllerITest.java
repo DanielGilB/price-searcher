@@ -19,6 +19,7 @@ class PvpControllerITest {
     // But it's enough to test our demo app.
     // On other hand, we are not testing all the use cases, I have ignored them and focused in the requirements tests
     // There are missing tests such as 404 when product/brand are missing or default date when date query param is missing
+    // I would also make a distinction between integration test and unit in order to run easy unit tests.
 
     private static final String url = "/brands/1/products/35455/pvp";
 
