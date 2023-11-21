@@ -3,12 +3,24 @@ package com.zara.price.pvp.domain;
 import org.junit.jupiter.api.Test;
 
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 
 import static java.time.temporal.ChronoUnit.DAYS;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class DateRangeTest {
+
+    @Test
+    void should_create_date() {
+        Instant from = Instant.now();
+        Instant to = from.plus(1, DAYS);
+
+        DateRange range = DateRange.of(from, to);
+
+        assertEquals(from, range.getFrom());
+        assertEquals(to, range.getTo());
+    }
 
     @Test
     void should_not_create_date_range_with_dates_null() {
