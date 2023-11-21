@@ -17,7 +17,7 @@ class PvpControllerITest {
     // This is not the best way to test the app since we are testing into the real db
     // It should be tested with a test database in which the desired data is loaded
     // But it's enough to test our demo app.
-    // On other hand, we are not testing all the use case, I have ignored them and focused in the requirements tests
+    // On other hand, we are not testing all the use cases, I have ignored them and focused in the requirements tests
     // There are missing tests such as 404 when product/brand are missing or default date when date query param is missing
 
     private static final String url = "/brands/1/products/35455/pvp";
