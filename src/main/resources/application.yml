@@ -1,0 +1,16 @@
+# This configuration is not PRD ready. It has been writing with exercise in mind
+# We are using jpa to create schema, which is not the best option.
+# There are more robust solutions such as Liquibase.
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.H2Dialect
